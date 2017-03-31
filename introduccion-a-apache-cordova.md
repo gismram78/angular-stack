@@ -26,11 +26,15 @@ Usandolo en Visual Studio Code IDE, version Community
 
 Apache Cordova Apps es el tipo de proyecto que se muestra en el IDE
 
-
-
 Es facil migrar una aplicacion en Java con Eclipse a Apache Cordova o Xamarin al usar Visual Studio Code IDE
 
-https://vicenteguzman.mx/
+[https://vicenteguzman.mx/](https://vicenteguzman.mx/)
 
-https://vicenteguzman.mx/
+[https://vicenteguzman.mx/](https://vicenteguzman.mx/)
+
+
+
+Usar Ionic o Apache Cordova?
+
+Ionic usa Angular, y Codova es el core y la distribucion es Ionic. Ionic es para cosas nativas, y es más potente.
 
