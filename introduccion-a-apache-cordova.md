@@ -10,8 +10,6 @@ Desarrollo:
 * Hibrido: Pierde mucho el enfasis de experiencia de usuario, es Web
 * Cross: Con un solo lenguaje se implemente en cada plataforma, enfocado a usabilidad, ahorrando tiempo y dinero
 
-
-
 Xamarin Regional Lead es una certificación.
 
 Las cross platforms:
@@ -30,7 +28,9 @@ Apache Cordova Apps es el tipo de proyecto que se muestra en el IDE
 
 
 
+Es facil migrar una aplicacion en Java con Eclipse a Apache Cordova o Xamarin al usar Visual Studio Code IDE
 
+https://vicenteguzman.mx/
 
-
+https://vicenteguzman.mx/
 
