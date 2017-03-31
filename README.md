@@ -1,12 +1,10 @@
-# Introduction
+# Introduccion a Apache Cordova
 
-Learning:
+Basado en:
 
-* Angular 2
-* Angular 4
-* NativeScript
-* TypeScript
-* RxJS for Angular
+https://www.crowdcast.io/e/cordova
+
+
 
 
 
