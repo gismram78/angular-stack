@@ -83,8 +83,13 @@ import { appRoutes } from './app.routes';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-
 ```
 
-ss
+Agregar nuevo componente desde Angular CLI dentro de app/: ng g component home
+
+El directorio components/ es para los componentes individuales
+
+Los demas se instalan en app/ fuera de components/
+
+
 
