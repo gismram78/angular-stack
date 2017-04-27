@@ -48,5 +48,11 @@ Componente esta compuesto por: markup, style, logic
 
 package.json: es un archivo de convención, por el estandar de Node, ya que actualmente toda app moderna la incluye, y tiene una estructura estandarizada.
 
+dependencies y devDependencies: con el primero se empaquetan las librerías a producción; el segundo son las dependencias de desarrollo.
+
+
+
+
+
 
 
