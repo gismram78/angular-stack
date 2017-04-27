@@ -93,3 +93,40 @@ Los demas se instalan en app/ fuera de components/
 
 Lo anterior para seguir los guidelines de diseño de Angular.
 
+Npm install bootstrap --save
+
+  
+
+
+Bootstrap 4
+
+  
+
+
+Dentro de angular cliente.json agregar bootstrap CSS
+
+  
+
+
+Angular no comprime imágenes
+
+  
+
+
+Ng build.   Esto crear la distribución del programa. Genera folder dist
+
+  
+
+
+Nativescript ionic para meter el distribuidor de angular
+
+  
+
+
+Carga de datos asíncrona
+
+  
+
+
+Lazy loading
+
