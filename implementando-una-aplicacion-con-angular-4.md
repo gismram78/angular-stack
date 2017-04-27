@@ -40,15 +40,13 @@ Ir a la carpeta del proyecto
 
 Ejecutar: ng serve
 
-Abrir el navegador:  http://localhost:4200/
+Abrir el navegador:  [http://localhost:4200/](http://localhost:4200/)
 
 Componente esta compuesto por: markup, style, logic
 
 @NgModule: pueden existir  todas las que queramos, porque no todos los modulos se necesitarían cargar al mismo tiempo, entonces se pueden separar por objetivos o logica de negocio o presentación.
 
-
-
-
+package.json: es un archivo de convención, por el estandar de Node, ya que actualmente toda app moderna la incluye, y tiene una estructura estandarizada.
 
 
 
