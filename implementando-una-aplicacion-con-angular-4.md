@@ -30,17 +30,12 @@ Esta guia es la buena y es apartir de angular 2. Angular 1 no tenia un style gui
 
 ## Pasos
 
-Instalar Angular CLI: npm install -g @angular/cli
-
-Generar un proyecto: ng new myfirstproy o bien ng new project --style=scss
-
-Ejecutar: ng set --global packageManager=yarn
-
-Ir a la carpeta del proyecto
-
-Ejecutar: ng serve
-
-Abrir el navegador:  [http://localhost:4200/](http://localhost:4200/)
+* Instalar Angular CLI: `npm install -g @angular/cli`
+* Generar un proyecto: ng new myfirstproy o bien `ng new project --style=scss`
+* Ejecutar: `ng set --global packageManager=yarn`
+* Ir a la carpeta del proyecto
+* Ejecutar: `ng serve`
+* Abrir el navegador:  [http://localhost:4200/](http://localhost:4200/)
 
 Componente esta compuesto por: markup, style, logic
 
@@ -49,6 +44,16 @@ Componente esta compuesto por: markup, style, logic
 package.json: es un archivo de convención, por el estandar de Node, ya que actualmente toda app moderna la incluye, y tiene una estructura estandarizada.
 
 dependencies y devDependencies: con el primero se empaquetan las librerías a producción; el segundo son las dependencias de desarrollo.
+
+Para tener varias versiones de node: `npm install -g n`
+
+Para cambiar la versión con n: `n 4.4.2`
+
+`n lts`   para instalar la ultima versión estable
+
+`n latest`  para instalar la ultima de las ultimas
+
+
 
 
 
