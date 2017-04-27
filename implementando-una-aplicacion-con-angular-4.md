@@ -24,15 +24,29 @@ Angular conoce componentes y viene mucho del concepto del desarrollo móvil. Es 
 
 ## Style  Guide
 
-https://angular.io/styleguide
+[https://angular.io/styleguide](https://angular.io/styleguide)
+
+Esta guia es la buena y es apartir de angular 2. Angular 1 no tenia un style guide, varios hacian el suyo propio.
 
 ## Pasos
 
 Instalar Angular CLI: npm install -g @angular/cli
 
-Generar un proyecto: ng new myfirstproy
+Generar un proyecto: ng new myfirstproy o bien ng new project --style=scss
+
+Ejecutar: ng set --global packageManager=yarn
 
 Ir a la carpeta del proyecto
+
+Ejecutar: ng serve
+
+Abrir el navegador:  http://localhost:4200/
+
+Componente esta compuesto por: markup, style, logic
+
+@NgModule: pueden existir  todas las que queramos, porque no todos los modulos se necesitarían cargar al mismo tiempo, entonces se pueden separar por objetivos o logica de negocio o presentación.
+
+
 
 
 
