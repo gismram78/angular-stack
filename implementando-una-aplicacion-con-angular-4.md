@@ -85,11 +85,11 @@ import { appRoutes } from './app.routes';
 export class AppModule { }
 ```
 
-Agregar nuevo componente desde Angular CLI dentro de app/: ng g component home
+Agregar nuevo componente desde Angular CLI dentro de app/: `ng g component home`
 
 El directorio components/ es para los componentes individuales
 
 Los demas se instalan en app/ fuera de components/
 
-
+Lo anterior para seguir los guidelines de diseño de Angular.
 
