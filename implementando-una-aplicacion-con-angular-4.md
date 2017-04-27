@@ -53,9 +53,11 @@ Para cambiar la versión con n: `n 4.4.2`
 
 `n latest`  para instalar la ultima de las ultimas
 
+Otro tool para llamar REST services: Rest Angular
 
+Referencia de librerias: https://github.com/AngularClass/awesome-angular
 
-
+aaa
 
 
 
