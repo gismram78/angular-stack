@@ -55,11 +55,36 @@ Para cambiar la versión con n: `n 4.4.2`
 
 Otro tool para llamar REST services: Rest Angular
 
-Referencia de librerias: https://github.com/AngularClass/awesome-angular
+Referencia de librerias: [https://github.com/AngularClass/awesome-angular](https://github.com/AngularClass/awesome-angular)
 
-aaa
+Se deben declarar los modulos tanto en el componente padre \(module\) como el los hijos \(components\).
 
+```
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
+import { RouterModule, Routes } from '@angular/router';
 
+import { AppComponent } from './app.component';
+import { appRoutes } from './app.routes';
 
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
+    FormsModule,
+    HttpModule,
+    RouterModule.forRoot(appRoutes)
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
 
+```
+
+ss
 
