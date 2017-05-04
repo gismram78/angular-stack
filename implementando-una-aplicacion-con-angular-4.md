@@ -95,38 +95,45 @@ Lo anterior para seguir los guidelines de diseño de Angular.
 
 Npm install bootstrap --save
 
-  
-
-
 Bootstrap 4
-
-  
-
 
 Dentro de angular cliente.json agregar bootstrap CSS
 
-  
-
-
 Angular no comprime imágenes
 
-  
-
-
-Ng build.   Esto crear la distribución del programa. Genera folder dist
-
-  
-
+Ng build.   Esto crear la distribución del programa. Genera folder dist
 
 Nativescript ionic para meter el distribuidor de angular
 
-  
-
-
 Carga de datos asíncrona
 
-  
-
-
 Lazy loading
+
+
+
+## Contenido \(continuación\)
+
+[slides](http://slides.com/jorandradefig/deck-85878a8a-ad37-41b1-b0d4-91b36233f353-2)  
+[angular cli](https://github.com/angular/angular-cli)
+
+  
+[**netflix-roulette**](http://netflixroulette.net/api/)**  
+https://gist.github.com/jorandradefig/76f77e5c3010183eb50ca3bb7c70143c  
+https://chocolatey.org/  
+vagrant init ubuntu/trusty64; vagrant up --provider virtualbox**
+
+ng new my-new-project --style=scss --routing  
+ng set --global packageManager=yarn
+
+npm install bootstrap@4.0.0-alpha.6 --save
+
+ng g component my-new-component  
+ng g directive my-new-directive  
+ng g pipe my-new-pipe  
+ng g service my-new-service
+
+ng serve
+
+ng build  
+ng build --prod
 
