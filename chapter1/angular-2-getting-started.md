@@ -64,7 +64,7 @@ A sample Product Management application could be composed of the next components
 * Visual Studio Code
   * Support Typescript
   * Runs in any OS
-  * https://code.visualstudio.com/
+  * [https://code.visualstudio.com/](https://code.visualstudio.com/)
 * WebStorm
 * Atom
 * Eclipse
@@ -73,20 +73,18 @@ A sample Product Management application could be composed of the next components
 
 ### Setting Up the Environment
 
-* Installing npm
+* Installing npm 3 and later
   * Node Package Manager
 * * Package Manager for Javascript
   * Install libraries, applications and packages
-  * https://www.npmjs.com
+  * [https://www.npmjs.com](https://www.npmjs.com)
 * Setting Up Angular application
-* 
-## References
+  * 
+* ## References
 
 [https://github.com/DeborahK/Angular-GettingStarted](https://github.com/DeborahK/Angular-GettingStarted)
 
 [https://github.com/DeborahK](https://github.com/DeborahK)
 
-http://www.typescriptlang.org/Playground/
-
-
+[http://www.typescriptlang.org/Playground/](http://www.typescriptlang.org/Playground/)
 
