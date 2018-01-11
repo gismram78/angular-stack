@@ -98,6 +98,7 @@ A sample Product Management application could be composed of the next components
     * Using Angular CLI
       * Generate components, modules, services, it scaffolds and executes unit and end-to-end tests, minimize,  packages and prepare files for deployment.
       * [https://github.com/angular/angular-cli](https://github.com/angular/angular-cli)
+      * `ng `command
   * Installing Angular Application
     * Open in VisualStudioCode
     * All files must be under src/ folder by convention
@@ -105,7 +106,37 @@ A sample Product Management application could be composed of the next components
     * Unser /app folder must be all feature folders which conform the application
     * Must be all boilerplate files \(configuration and setup files\)
     * Must be the package.json file for all dependencies. @angular entries are the Angular system libraries
-* ## References
+
+### Understanding Modules
+
+* With Javascript
+  * Problems with namespaces made definitions in the global namespace
+  * Missing of code organization
+* With AngularJS
+  * Appears Modules
+* With Typescript
+  * Also has Modules which are always out of the global namespace
+  * With ES 2015 it is a set of standards for defining Modules
+  * With ES 2015 a module is a file and a file is a module
+  * With ES 2015 is not necessary to define modules \(it is implicit\)
+
+  ![](/assets/10import.png)
+* With Angular 5
+  * Angular modules help to organize code in cohesive blocks of functionality
+  * Each Angular application has a particular module called @module
+  * Define feature modules
+  * Define shared/common modules
+  * Allow loading on start or lazy load
+  * Each component declared into a module is specific for that module
+
+  ![](/assets/12import.png)
+* Difference between ES 2015 and Angular Modules
+  * Angular modules are application-based
+  * ES Modules are code-based
+
+  ![](/assets/13import.png)
+
+## References
 
 [https://github.com/DeborahK/Angular-GettingStarted](https://github.com/DeborahK/Angular-GettingStarted)
 
