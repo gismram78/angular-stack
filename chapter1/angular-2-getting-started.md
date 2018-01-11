@@ -32,25 +32,17 @@ Now the form to organize and put all these components together is:
 * Every Angular application has at least one Angular module called application's **root Angular module**
 * Every Angular application has one or more **feature Angular modules** focus on an specific application feature. 
 
-
-
 ![](/assets/3import.png)
-
-
 
 A sample Product Management application could be composed of the next components:
 
-![](/assets/5import.png)aaaaa
+![](/assets/5import.png)
 
 ## 
 
 ## References
 
-https://github.com/DeborahK/Angular-GettingStarted
+[https://github.com/DeborahK/Angular-GettingStarted](https://github.com/DeborahK/Angular-GettingStarted)
 
-https://github.com/DeborahK
-
-
-
-
+[https://github.com/DeborahK](https://github.com/DeborahK)
 
