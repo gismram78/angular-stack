@@ -86,8 +86,16 @@ A sample Product Management application could be composed of the next components
   * Create a main.ts file
   * Create the host Web Page \(index.hmtl\)
   * How?
-    * Using Angular quickstart \(deprecated, instead use Angular CLI, only use for learning and prototyping\): https://github.com/angular/quickstart
-    * * Using Angular CLI
+    * Using Angular quickstart \(deprecated, instead use Angular CLI, only use for learning and prototyping\): [https://github.com/angular/quickstart](https://github.com/angular/quickstart)
+      * `git clone https://github.com/angular/quickstart  my-proj`
+      * npm install
+      * npm start
+      * npm run build
+      * npm run build:w
+      * npm run serve
+      * npm test
+      * npm run e2e
+    * Using Angular CLI
 * ## References
 
 [https://github.com/DeborahK/Angular-GettingStarted](https://github.com/DeborahK/Angular-GettingStarted)
