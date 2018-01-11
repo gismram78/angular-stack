@@ -28,9 +28,11 @@ The **component** is conformed of these modules.
 
 Now the form to organize and put all these components together is:
 
-*  **Angular modules** to organize application into cohesive blocks of functionality
+* **Angular modules** to organize application into cohesive blocks of functionality
 * Every Angular application has at least one Angular module called application's **root Angular module**
 * Every Angular application has one or more **feature Angular modules** focus on an specific application feature. 
+
+![](/assets/3import.png)
 
 
 
