@@ -52,18 +52,41 @@ A sample Product Management application could be composed of the next components
   * String typing
   * Great IDE tooling \(inline documentation, syntax checking, code navigation, advanced refactorings\)
   * Typescript was used to build Angular 2
+  * Opensource
+  * Typescript type definition  files \(\*.d.ts\)
+  * Class-based object-orientation
 * Dart
   * Non Javascript
 
-#### Typescript
+### Selecting Editor
 
-aa
+* Visual Studio
+* Visual Studio Code
+  * Support Typescript
+  * Runs in any OS
+  * https://code.visualstudio.com/
+* WebStorm
+* Atom
+* Eclipse
+* Sublime
+* Others
 
-## 
+### Setting Up the Environment
 
+* Installing npm
+  * Node Package Manager
+* * Package Manager for Javascript
+  * Install libraries, applications and packages
+  * https://www.npmjs.com
+* Setting Up Angular application
+* 
 ## References
 
 [https://github.com/DeborahK/Angular-GettingStarted](https://github.com/DeborahK/Angular-GettingStarted)
 
 [https://github.com/DeborahK](https://github.com/DeborahK)
+
+http://www.typescriptlang.org/Playground/
+
+
 
