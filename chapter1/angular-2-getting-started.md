@@ -79,7 +79,15 @@ A sample Product Management application could be composed of the next components
   * Install libraries, applications and packages
   * [https://www.npmjs.com](https://www.npmjs.com)
 * Setting Up Angular application
-  * 
+  * Create an application folder
+  * Add package definitions and configuration files
+  * Install the packages
+  * Create the app's Angular module
+  * Create a main.ts file
+  * Create the host Web Page \(index.hmtl\)
+  * How?
+    * Using Angular quickstart \(deprecated, instead use Angular CLI, only use for learning and prototyping\): https://github.com/angular/quickstart
+    * * Using Angular CLI
 * ## References
 
 [https://github.com/DeborahK/Angular-GettingStarted](https://github.com/DeborahK/Angular-GettingStarted)
