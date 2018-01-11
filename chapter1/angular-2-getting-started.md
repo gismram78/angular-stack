@@ -20,3 +20,13 @@ Why Angular and not AngularJS?
 
 An application is a composition of components and services which operate along them.![](/assets/1import.png)
 
+The component is conformed of these modules.
+
+![](/assets/2import.png)
+
+Template: HTML fragment to define the view
+
+Class: Associated to the view, it contains methods and properties
+
+Metadata: Additional information to identify the class as an Angular component.
+
