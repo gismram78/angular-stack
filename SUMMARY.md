@@ -5,7 +5,7 @@
   * [Resources](chapter1/resources.md)
   * [Angular 2 Path Courses](chapter1/angular-2-path-courses.md)
     * [Angular 2 Getting Started](chapter1/angular-2-getting-started.md)
-      * Introduction to Components
+      * [Introduction to Components](chapter1/angular-2-getting-started/introduction-to-components.md)
       * Templates, Interpolation and Directives
       * Data Binding & Pipes
       * More on Components

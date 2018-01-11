@@ -36,7 +36,28 @@ Now the form to organize and put all these components together is:
 
 A sample Product Management application could be composed of the next components:
 
-![](/assets/5import.png)
+## ![](/assets/5import.png)
+
+## First Things to Do
+
+### Selecting Language
+
+* Javascript Language Specification
+  * ECMAScript \(ES\)
+  * ES 3 \(for old browsers\)
+  * ES 5 \(for most modern browsers, no compile require\)
+  * ES 2015 o ES 6 \(latest release but not many browsers support it yet, so the transpilers are in the rescue, compile require, new powerful features\)
+* Typescript
+  * Superset of Javascript
+  * String typing
+  * Great IDE tooling \(inline documentation, syntax checking, code navigation, advanced refactorings\)
+  * Typescript was used to build Angular 2
+* Dart
+  * Non Javascript
+
+#### Typescript
+
+aa
 
 ## 
 
