@@ -8,7 +8,7 @@ Jumpsuit
 
 Empresas: Resuelve / Conekta
 
-Bot Builder SDK 
+Bot Builder SDK
 
 AI & NLP
 
@@ -18,7 +18,7 @@ Cortana
 
 Internationalization i18n React
 
-Compiling C++ into Javascript 
+Compiling C++ into Javascript Emsripten
 
 WAI-ARIA
 
