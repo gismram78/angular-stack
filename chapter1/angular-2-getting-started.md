@@ -96,6 +96,15 @@ A sample Product Management application could be composed of the next components
       * npm test
       * npm run e2e
     * Using Angular CLI
+      * Generate components, modules, services, it scaffolds and executes unit and end-to-end tests, minimize,  packages and prepare files for deployment.
+      * https://github.com/angular/angular-cli
+  * Installing Angular Application
+    * Open in VisualStudioCode
+    * All files must be under src/ folder by convention
+    * Under /src folder must be the /app folder for files specific for the application
+    * Unser /app folder must be all feature folders which conform the application
+    * Must be all boilerplate files \(configuration and setup files\)
+    * Must be the package.json file for all dependencies. @angular entries are the Angular system libraries
 * ## References
 
 [https://github.com/DeborahK/Angular-GettingStarted](https://github.com/DeborahK/Angular-GettingStarted)
