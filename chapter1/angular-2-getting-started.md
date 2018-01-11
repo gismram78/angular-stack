@@ -26,7 +26,11 @@ The **component** is conformed of these modules.
 * Class: Associated to the view, it contains methods and properties
 * Metadata: Additional information to identify the class as an Angular component.![](/assets/2import.png)
 
+Now the form to organize and put all these components together is:
+
+*  **Angular modules** to organize application into cohesive blocks of functionality
+* Every Angular application has at least one Angular module called application's **root Angular module**
+* Every Angular application has one or more **feature Angular modules** focus on an specific application feature. 
 
 
-Now
 
