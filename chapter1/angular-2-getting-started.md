@@ -88,16 +88,16 @@ A sample Product Management application could be composed of the next components
   * How?
     * Using Angular quickstart \(deprecated, instead use Angular CLI, only use for learning and prototyping\): [https://github.com/angular/quickstart](https://github.com/angular/quickstart)
       * `git clone https://github.com/angular/quickstart  my-proj`
-      * npm install
-      * npm start
+      * `npm install`
+      * `npm start`
       * npm run build
       * npm run build:w
       * npm run serve
-      * npm test
-      * npm run e2e
+      * `npm test`
+      * `npm run e2e`
     * Using Angular CLI
       * Generate components, modules, services, it scaffolds and executes unit and end-to-end tests, minimize,  packages and prepare files for deployment.
-      * https://github.com/angular/angular-cli
+      * [https://github.com/angular/angular-cli](https://github.com/angular/angular-cli)
   * Installing Angular Application
     * Open in VisualStudioCode
     * All files must be under src/ folder by convention
