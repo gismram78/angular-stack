@@ -44,11 +44,11 @@ Angular built-in decorators:
 
 It is a ES 2015
 
-`import `statement
+`import`statement
 
-Import from a third-party library, our own ES modules or from Angular. 
+Import from a third-party library, our own ES modules or from Angular.
 
-Angular is modular:
+Angular is modular \(https://www.npmjs.com/~angular\):
 
 * @angular/core
 * @angular/animate
@@ -56,8 +56,6 @@ Angular is modular:
 * @angular/router
 
 aa
-
-
 
 ## Building a Nested Component
 
