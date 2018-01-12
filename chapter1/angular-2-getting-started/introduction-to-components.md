@@ -48,12 +48,71 @@ It is a ES 2015
 
 Import from a third-party library, our own ES modules or from Angular.
 
-Angular is modular \(https://www.npmjs.com/~angular\):
+Angular is modular \([https://www.npmjs.com/~angular\](https://www.npmjs.com/~angular\)\):
 
 * @angular/core
 * @angular/animate
 * @angular/http
 * @angular/router
+
+## Boostrapping the Angular Application
+
+Telling Angular to load  our root component is called Boostrapping.
+
+Define host application: index.html  \(with a directive - custom element - used as selector\)
+
+Define root Angular component.
+
+Single Page Application is called to the Angular application \(because only one host page\).
+
+```
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Acme Product Management</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <pm-root></pm-root>
+</body>
+</html>
+```
+
+![](/assets/33import.png)
+
+### Defining Angular module
+
+* Defined as a class
+* Identify the class as an Angular module using @NgModule
+* Declarations section: array of components which belong to this module
+* Imports section: array of external modules \(own, angular modules or third-party\)
+* `BrowserModule`: it is a module every browser application must import. It is important to application service providers such as error handling
+* 
+
+
+```
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+
+import { AppComponent } from './app.component';
+
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+
+```
 
 aa
 
