@@ -48,7 +48,7 @@ It is a ES 2015
 
 Import from a third-party library, our own ES modules or from Angular.
 
-Angular is modular \([https://www.npmjs.com/~angular\](https://www.npmjs.com/~angular\)\):
+Angular is modular \([https://www.npmjs.com/~angular\](https://www.npmjs.com/~angular%29\):
 
 * @angular/core
 * @angular/animate
@@ -91,8 +91,7 @@ Single Page Application is called to the Angular application \(because only one 
 * Declarations section: array of components which belong to this module
 * Imports section: array of external modules \(own, angular modules or third-party\)
 * `BrowserModule`: it is a module every browser application must import. It is important to application service providers such as error handling
-* 
-
+* Bootstrap section: defines the startup component of the application . This startup must contain the selector used in the index,html
 
 ```
 import { BrowserModule } from '@angular/platform-browser';
@@ -111,7 +110,6 @@ import { AppComponent } from './app.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-
 ```
 
 aa
