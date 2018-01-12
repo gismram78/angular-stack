@@ -91,7 +91,7 @@ Single Page Application is called to the Angular application \(because only one 
 * Declarations section: array of components which belong to this module
 * Imports section: array of external modules \(own, angular modules or third-party\)
 * `BrowserModule`: it is a module every browser application must import. It is important to application service providers such as error handling
-* Bootstrap section: defines the startup component of the application . This startup must contain the selector used in the index,html
+* Bootstrap section: defines the startup component of the application . This startup must contain the selector used in the index.html
 
 ```
 import { BrowserModule } from '@angular/platform-browser';
