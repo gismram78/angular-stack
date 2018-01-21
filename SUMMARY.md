@@ -6,7 +6,7 @@
   * [Angular 2 Path Courses](chapter1/angular-2-path-courses.md)
     * [Angular 2 Getting Started](chapter1/angular-2-getting-started.md)
       * [Introduction to Components](chapter1/angular-2-getting-started/introduction-to-components.md)
-      * Templates, Interpolation and Directives
+      * [Templates, Interpolation and Directives](chapter1/angular-2-getting-started/templates-interpolation-and-directives.md)
       * Data Binding & Pipes
       * More on Components
       * Building Nested Components
