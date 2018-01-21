@@ -123,7 +123,16 @@ export class AppModule { }
 * Select and appropriate datatype when using Typescript and a default value
 * Use camelCase for the property names
 * Logical methods with camelCase
-* 
+* Use @ for decorator
+* HTML for template
+* import keyword: followed by member name and module path both are case sensitive. Dont need to specify the extension
+
+## References
+
+https://blogs.msmvps.com/deborahk/angular-2-getting-started-problem-solver/
+
+
+
 
 
 
