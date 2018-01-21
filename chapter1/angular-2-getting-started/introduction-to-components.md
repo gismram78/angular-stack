@@ -112,6 +112,18 @@ import { AppComponent } from './app.component';
 export class AppModule { }
 ```
 
+## Checklist for Creating a Component
+
+* Create a class which contains the code
+* Use the decorator for the Metadata \(for view template and HTML\)
+* Import any third party
+* For convention the class name must be PascalCasing and posfixed by the word "Component"
+* Use export keyword as part of the class declaration
+* Data in properties
+* Select and appropriate datatype when using Typescript and a default value
+* Use camelCase for the property names
+* Logical methods with camelCase
+* 
 
 
 
