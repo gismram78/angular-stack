@@ -112,9 +112,7 @@ import { AppComponent } from './app.component';
 export class AppModule { }
 ```
 
-aa
 
-## Building a Nested Component
 
-Using a Nested Component
+
 
