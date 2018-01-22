@@ -65,13 +65,29 @@ Create the HTML template into: /app/products/product-list.component.html
 
 ## Building the Component
 
-Using:
+Create the class Component into: /app/products/product-list.component.ts
 
-* Inlin
+```
+import { Component } from '@angular/core';
+
+@Component({
+    selector: 'pm-products',
+    templateUrl: './product-list.component.html'
+})
+export class ProductListComponent {
+
+}
+```
+
+## Using a Component as a Directive
+
+When a Component has a `selector `then this component is used as Directive. This means that we can insert this component template into any other component template by using the selector as an HTMLtag.
+
+![](/assets/201import.png)
+
+aaa
 
 aa
-
-
 
 ## References
 
