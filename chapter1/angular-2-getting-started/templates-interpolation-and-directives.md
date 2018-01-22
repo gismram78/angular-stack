@@ -81,11 +81,49 @@ export class ProductListComponent {
 
 ## Using a Component as a Directive
 
-When a Component has a `selector `then this component is used as Directive. This means that we can insert this component template into any other component template by using the selector as an HTMLtag.
+When a Component has a `selector`then this component is used as Directive. This means that we can insert this component template into any other component template by using the selector as an HTMLtag.
 
-![](/assets/201import.png)
+![](/assets/201import.png)If directive is not defined in module in which is used, this error:
 
-aaa
+```
+Error: Template parse errors:
+'pm-products' is not a known element:
+1. If 'pm-products' is an Angular component, then verify that it is part of this module.
+2. If 'pm-products' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message. ("
+    Welcome to {{pageTitle}}!!
+
+  </h1>
+
+  [ERROR ->]<pm-products></pm-products>
+
+</div>
+
+"): ng:///AppModule/AppComponent.html@5:2
+```
+
+Declare the component in the module where is used \(app.module.ts\):
+
+```
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+
+import { AppComponent } from './app.component';
+import { ProductListComponent } from './products/product-list.component';
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    ProductListComponent
+  ],
+  imports: [
+    BrowserModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
+
+```
 
 aa
 
