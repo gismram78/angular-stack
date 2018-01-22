@@ -10,7 +10,13 @@ Building with interpolation
 
 Adding logic and directives \(and Angular built-in directives\)
 
-aaa
+## Building a Template
 
+Using:
 
+* Inline `template `with single quotes ""
+* Inline `template `with back ticks \(\`\`\) of ES 2015
+* Linked template using `templateUrl`: './product-list.component.html'
+
+aa
 
