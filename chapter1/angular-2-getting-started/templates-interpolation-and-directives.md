@@ -122,6 +122,18 @@ import { ProductListComponent } from './products/product-list.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+```
+
+It is used in app root component \(in the view app.component.html\):
+
+```
+<!--The whole content below can be removed with the new code.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{pageTitle}}!!
+  </h1>
+  <pm-products></pm-products>
+</div>
 
 ```
 
