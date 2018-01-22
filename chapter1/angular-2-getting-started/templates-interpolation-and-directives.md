@@ -18,9 +18,11 @@ Using:
 * Inline `template`with back ticks \(\`\`\) of ES 2015
 * Linked template using `templateUrl`: './product-list.component.html'
 
+### Build the Linked template
+
 aa
 
 ## References
 
-http://getbootstrap.com/
+[http://getbootstrap.com/](http://getbootstrap.com/)
 
