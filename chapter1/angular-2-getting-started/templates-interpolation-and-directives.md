@@ -14,9 +14,13 @@ Adding logic and directives \(and Angular built-in directives\)
 
 Using:
 
-* Inline `template `with single quotes ""
-* Inline `template `with back ticks \(\`\`\) of ES 2015
+* Inline `template`with single quotes ""
+* Inline `template`with back ticks \(\`\`\) of ES 2015
 * Linked template using `templateUrl`: './product-list.component.html'
 
 aa
+
+## References
+
+http://getbootstrap.com/
 
