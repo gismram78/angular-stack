@@ -134,8 +134,9 @@ It is used in app root component \(in the view app.component.html\):
   </h1>
   <pm-products></pm-products>
 </div>
-
 ```
+
+## Binding with Interpolation
 
 aa
 
