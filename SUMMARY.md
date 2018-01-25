@@ -21,4 +21,5 @@
 * [Referencias](referencias.md)
 * [Typescript](typescript.md)
 * [Advanced FrontStack Strategies](advanced-frontstack-strategies.md)
+* [ReactJS, NextJS, GraphQL](reactjs-nextjs-graphql.md)
 
